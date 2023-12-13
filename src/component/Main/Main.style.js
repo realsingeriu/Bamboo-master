@@ -7,4 +7,7 @@ export const Main = styled.main`
   align-items: center;
 
   margin-top: 190px;
+
+  max-width: 100%;
+  height: auto;
 `;

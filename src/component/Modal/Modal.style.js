@@ -23,12 +23,13 @@ export const Inner = styled.div`
   justify-content: center;
   align-items: center;
 
-  padding: 70px;
+  padding: 5vw;
 
   z-index: 6;
 
   background-color: #a4be7b;
   border-radius: 70px;
+  max-width: 80%;
 `;
 
 export const Form = styled.form`
@@ -39,7 +40,7 @@ export const Form = styled.form`
 `;
 
 export const Label = styled.label`
-  width: 570px;
+  width: 80%;
 
   align-self: center;
 
@@ -47,6 +48,7 @@ export const Label = styled.label`
 
   font-size: 2rem;
   font-weight: 600;
+  max-width: 570px;
 `;
 
 export const FileLabel = styled.label`
@@ -58,6 +60,7 @@ export const FileLabel = styled.label`
 
   font-size: 2rem;
   font-weight: 700;
+  max-width: 80%;
 
   &:hover {
     cursor: pointer;
@@ -65,7 +68,7 @@ export const FileLabel = styled.label`
 `;
 
 export const Input = styled.input`
-  width: 600px;
+  width: 80%;
   height: 30px;
   min-height: ${props => props.height}px;
 

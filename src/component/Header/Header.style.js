@@ -16,6 +16,10 @@ export const Header = styled.header`
 
   background-color: black;
   z-index: 3;
+
+  max-width: 1550px;
+  width: 100%;
+  margin: 0 auto;
 `;
 
 export const Logo = styled.img`
