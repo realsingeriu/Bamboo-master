@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { auth } from "modules/firebase";
 import { Link, useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
-import bamboo_logo from "assets/bamboo_logo.png";
+import news_feed_logo from "assets/news-feed-logo.png";
 import basic from "assets/basic.jpg";
 import { Button } from "component/Button/Button.style";
 import SignInModal from "component/Modal/SignInModal";
@@ -37,9 +37,9 @@ const Header = () => {
 
   return (
     <St.Header>
-      <h1 style={{ display: "none" }}>&lt;&gt;Bamboo&lt;&#47;&gt;</h1>
+      <h1 style={{ display: "none" }}>News-feed</h1>
       <Link to={"/"}>
-        <St.Logo src={bamboo_logo} alt="Logo" />
+        <St.Logo src={news_feed_logo} alt="Logo" />
       </Link>
       <St.ButtonBox>
         {uid === null ? (

@@ -14,7 +14,7 @@ export const BUTTON_HEIGHT_MAP = {
   main: 70
 };
 export const BUTTON_COLOR_MAP = {
-  header: "#e5d9b6",
+  header: "#F6F6F6",
   comment: "#e5d9b6",
   sign: "#285430",
   modal: "#e5d9b6",

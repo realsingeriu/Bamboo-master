@@ -14,7 +14,7 @@ export const Header = styled.header`
 
   padding: 0 100px;
 
-  background-color: #5f8d4e;
+  background-color: black;
   z-index: 3;
 `;
 
